@@ -97,5 +97,5 @@ export function report(state) {
     return null
   }
 
-  return state.x + ',' + state.y + ',' + state.facing
+  return state.x + ', ' + state.y + ', ' + state.facing
 }
